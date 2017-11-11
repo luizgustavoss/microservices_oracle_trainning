@@ -101,7 +101,6 @@ public class EmployeeController {
     }
 
     // Delete a employee (Week 3)
-    // Update an employee
     @RequestMapping(method = RequestMethod.DELETE, value = "{id}")
     public ResponseEntity delete(@PathVariable long id) {
 
